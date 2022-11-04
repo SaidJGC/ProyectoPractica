@@ -9,23 +9,42 @@
 /* Begin PBXBuildFile section */
 		E3BF8D582915782A0042972D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3BF8D572915782A0042972D /* AppDelegate.swift */; };
 		E3BF8D5A2915782A0042972D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3BF8D592915782A0042972D /* SceneDelegate.swift */; };
-		E3BF8D5C2915782A0042972D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3BF8D5B2915782A0042972D /* ViewController.swift */; };
-		E3BF8D5F2915782A0042972D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3BF8D5D2915782A0042972D /* Main.storyboard */; };
 		E3BF8D622915782A0042972D /* ProyectoPractica.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E3BF8D602915782A0042972D /* ProyectoPractica.xcdatamodeld */; };
-		E3BF8D642915782C0042972D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3BF8D632915782C0042972D /* Assets.xcassets */; };
 		E3BF8D672915782C0042972D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3BF8D652915782C0042972D /* LaunchScreen.storyboard */; };
+		E3BF8D6F291578BE0042972D /* Models in Resources */ = {isa = PBXBuildFile; fileRef = E3BF8D6E291578BE0042972D /* Models */; };
+		E3BF8D842915791F0042972D /* Controllers in Resources */ = {isa = PBXBuildFile; fileRef = E3BF8D832915791F0042972D /* Controllers */; };
+		E3BF8D86291579A80042972D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3BF8D85291579A80042972D /* Assets.xcassets */; };
+		E3BF8D88291579DA0042972D /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = E3BF8D87291579DA0042972D /* Podfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E3BF8D542915782A0042972D /* ProyectoPractica.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProyectoPractica.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3BF8D572915782A0042972D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E3BF8D592915782A0042972D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E3BF8D5B2915782A0042972D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E3BF8D5E2915782A0042972D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E3BF8D612915782A0042972D /* ProyectoPractica.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ProyectoPractica.xcdatamodel; sourceTree = "<group>"; };
-		E3BF8D632915782C0042972D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E3BF8D662915782C0042972D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E3BF8D682915782C0042972D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3BF8D6E291578BE0042972D /* Models */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Models; sourceTree = "<group>"; };
+		E3BF8D71291578E10042972D /* ProductoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductoCell.xib; sourceTree = "<group>"; };
+		E3BF8D72291578E10042972D /* ProveedprTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProveedprTableViewCell.xib; sourceTree = "<group>"; };
+		E3BF8D73291578E10042972D /* ProveedprTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProveedprTableViewCell.swift; sourceTree = "<group>"; };
+		E3BF8D74291578E10042972D /* AreaDepartamentoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaDepartamentoCell.swift; sourceTree = "<group>"; };
+		E3BF8D76291578E10042972D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E3BF8D77291578E10042972D /* AreaDepartamentoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AreaDepartamentoCell.xib; sourceTree = "<group>"; };
+		E3BF8D78291578E10042972D /* ProveedorCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProveedorCollectionViewCell.xib; sourceTree = "<group>"; };
+		E3BF8D79291578E10042972D /* UsuarioCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsuarioCell.swift; sourceTree = "<group>"; };
+		E3BF8D7A291578E10042972D /* UsuarioCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UsuarioCell.xib; sourceTree = "<group>"; };
+		E3BF8D7B291578E10042972D /* ProductoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductoCollectionViewCell.swift; sourceTree = "<group>"; };
+		E3BF8D7C291578E10042972D /* TestCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCollectionViewCell.swift; sourceTree = "<group>"; };
+		E3BF8D7D291578E10042972D /* ProductoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductoCell.swift; sourceTree = "<group>"; };
+		E3BF8D7E291578E10042972D /* Area-DepartamentoCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = "Area-DepartamentoCollectionViewCell.xib"; sourceTree = "<group>"; };
+		E3BF8D7F291578E10042972D /* ProveedorCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProveedorCollectionViewCell.swift; sourceTree = "<group>"; };
+		E3BF8D80291578E10042972D /* TestCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestCollectionViewCell.xib; sourceTree = "<group>"; };
+		E3BF8D81291578E10042972D /* Area-DepartamentoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Area-DepartamentoCollectionViewCell.swift"; sourceTree = "<group>"; };
+		E3BF8D82291578E10042972D /* ProductoCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductoCollectionViewCell.xib; sourceTree = "<group>"; };
+		E3BF8D832915791F0042972D /* Controllers */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Controllers; sourceTree = "<group>"; };
+		E3BF8D85291579A80042972D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../SGalindoEcommerce/SGalindoEcommerce/Assets.xcassets; sourceTree = "<group>"; };
+		E3BF8D87291579DA0042972D /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +77,42 @@
 		E3BF8D562915782A0042972D /* ProyectoPractica */ = {
 			isa = PBXGroup;
 			children = (
+				E3BF8D6E291578BE0042972D /* Models */,
+				E3BF8D832915791F0042972D /* Controllers */,
+				E3BF8D70291578E10042972D /* Views */,
 				E3BF8D572915782A0042972D /* AppDelegate.swift */,
 				E3BF8D592915782A0042972D /* SceneDelegate.swift */,
-				E3BF8D5B2915782A0042972D /* ViewController.swift */,
-				E3BF8D5D2915782A0042972D /* Main.storyboard */,
-				E3BF8D632915782C0042972D /* Assets.xcassets */,
+				E3BF8D85291579A80042972D /* Assets.xcassets */,
 				E3BF8D652915782C0042972D /* LaunchScreen.storyboard */,
 				E3BF8D682915782C0042972D /* Info.plist */,
 				E3BF8D602915782A0042972D /* ProyectoPractica.xcdatamodeld */,
+				E3BF8D87291579DA0042972D /* Podfile */,
 			);
 			path = ProyectoPractica;
+			sourceTree = "<group>";
+		};
+		E3BF8D70291578E10042972D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E3BF8D71291578E10042972D /* ProductoCell.xib */,
+				E3BF8D72291578E10042972D /* ProveedprTableViewCell.xib */,
+				E3BF8D73291578E10042972D /* ProveedprTableViewCell.swift */,
+				E3BF8D74291578E10042972D /* AreaDepartamentoCell.swift */,
+				E3BF8D75291578E10042972D /* Main.storyboard */,
+				E3BF8D77291578E10042972D /* AreaDepartamentoCell.xib */,
+				E3BF8D78291578E10042972D /* ProveedorCollectionViewCell.xib */,
+				E3BF8D79291578E10042972D /* UsuarioCell.swift */,
+				E3BF8D7A291578E10042972D /* UsuarioCell.xib */,
+				E3BF8D7B291578E10042972D /* ProductoCollectionViewCell.swift */,
+				E3BF8D7C291578E10042972D /* TestCollectionViewCell.swift */,
+				E3BF8D7D291578E10042972D /* ProductoCell.swift */,
+				E3BF8D7E291578E10042972D /* Area-DepartamentoCollectionViewCell.xib */,
+				E3BF8D7F291578E10042972D /* ProveedorCollectionViewCell.swift */,
+				E3BF8D80291578E10042972D /* TestCollectionViewCell.xib */,
+				E3BF8D81291578E10042972D /* Area-DepartamentoCollectionViewCell.swift */,
+				E3BF8D82291578E10042972D /* ProductoCollectionViewCell.xib */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,9 +173,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3BF8D88291579DA0042972D /* Podfile in Resources */,
+				E3BF8D842915791F0042972D /* Controllers in Resources */,
 				E3BF8D672915782C0042972D /* LaunchScreen.storyboard in Resources */,
-				E3BF8D642915782C0042972D /* Assets.xcassets in Resources */,
-				E3BF8D5F2915782A0042972D /* Main.storyboard in Resources */,
+				E3BF8D6F291578BE0042972D /* Models in Resources */,
+				E3BF8D86291579A80042972D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,7 +188,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3BF8D5C2915782A0042972D /* ViewController.swift in Sources */,
 				E3BF8D622915782A0042972D /* ProyectoPractica.xcdatamodeld in Sources */,
 				E3BF8D582915782A0042972D /* AppDelegate.swift in Sources */,
 				E3BF8D5A2915782A0042972D /* SceneDelegate.swift in Sources */,
@@ -151,20 +197,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E3BF8D5D2915782A0042972D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E3BF8D5E2915782A0042972D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E3BF8D652915782C0042972D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				E3BF8D662915782C0042972D /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E3BF8D75291578E10042972D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3BF8D76291578E10042972D /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

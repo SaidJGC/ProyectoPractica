@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="AreaDepartamentoCell" id="gTV-IL-0wX" customClass="AreaDepartamentoCell" customModule="SGalindoEcommerce" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="260" height="220"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="260" height="220"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Area" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C6a-wh-FpK">
+                        <rect key="frame" x="53.666666666666657" y="0.0" width="153" height="15.666666666666666"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="153" id="pza-99-xh2"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" name="BackgroundL"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="749" image="ImagenProducto" translatesAutoresizingMaskIntoConstraints="NO" id="xs7-1y-zW8">
+                        <rect key="frame" x="54" y="21.333333333333329" width="153" height="124.99999999999999"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="125" id="SBH-kX-usm"/>
+                            <constraint firstAttribute="width" constant="153" id="gXi-MR-cpg"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <color key="backgroundColor" name="Cards"/>
+            <color key="tintColor" name="BackgroundL"/>
+            <constraints>
+                <constraint firstItem="xs7-1y-zW8" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" constant="0.5" id="Hkv-mo-17Z"/>
+                <constraint firstItem="C6a-wh-FpK" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="a9z-bF-q1a"/>
+                <constraint firstItem="xs7-1y-zW8" firstAttribute="top" secondItem="C6a-wh-FpK" secondAttribute="bottom" constant="5.6666666666666661" id="wE1-r1-Wuf"/>
+                <constraint firstItem="C6a-wh-FpK" firstAttribute="centerX" secondItem="xs7-1y-zW8" secondAttribute="centerX" constant="-0.5" id="wNa-h8-njv"/>
+            </constraints>
+            <size key="customSize" width="130" height="82"/>
+            <connections>
+                <outlet property="imagen" destination="xs7-1y-zW8" id="Frd-kX-lta"/>
+                <outlet property="labelNombre" destination="C6a-wh-FpK" id="W8a-4G-a2j"/>
+            </connections>
+            <point key="canvasLocation" x="143.07692307692307" y="31.990521327014218"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="ImagenProducto" width="300" height="170.66667175292969"/>
+        <namedColor name="BackgroundL">
+            <color red="0.16099999845027924" green="0.23100000619888306" blue="0.37299999594688416" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Cards">
+            <color red="0.93300002813339233" green="0.93300002813339233" blue="0.93300002813339233" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

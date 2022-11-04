@@ -2,8 +2,7 @@
 //  SceneDelegate.swift
 //  ProyectoPractica
 //
-//  Created by MacBookMBA4 on 04/11/22.
-//
+
 
 import UIKit
 
